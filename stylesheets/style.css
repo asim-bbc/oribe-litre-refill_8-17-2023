@@ -10359,5 +10359,14 @@ img{
 		text-align: left;
 		padding: 0px 45px 9px 20px;
 	}
+	p.font-secondary.text-xxxxl.text-left , p.font-secondary.text-xxxxl.text-right.line-height-heading{
+		font-size: 48px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: italic;
+		line-height: 1;
+		letter-spacing: normal;
+		text-align: center;
+	}
 
 }

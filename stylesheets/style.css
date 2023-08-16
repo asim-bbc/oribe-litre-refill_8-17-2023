@@ -10314,7 +10314,7 @@ img{
 		letter-spacing: normal;
 		text-align: left;
 	}
-	.margin-bottom-lg.text-md{
+	.section_07 .margin-bottom-lg.text-md{
 		font-size: 14px;
 		font-weight: normal;
 		font-stretch: condensed;
@@ -10323,11 +10323,19 @@ img{
 		letter-spacing: normal;
 		text-align: left;
 	}
-	.margin-bottom-lg.text-lg {
+	.section_07 .margin-bottom-lg.text-lg {
 		font-size: 14px;
 		font-weight: normal;
 		font-stretch: condensed;
 		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+	}
+	.section_07 .font-secondary.text-lg {
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: italic;
 		line-height: normal;
 		letter-spacing: normal;
 		text-align: left;

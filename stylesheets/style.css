@@ -10394,7 +10394,15 @@ img{
 		letter-spacing: normal;
 		text-align: center;
 	}
-
+	.acc__panel.answer-mobile {
+		font-size: 14px;
+		font-weight: normal;
+		font-stretch: condensed;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+	}
 }
 section.section_09.position-sticky.bottom-0 a.btn.btn--primary.btn--md.width-100\%.text-uppercase{
 	width: 100%;

@@ -10229,7 +10229,21 @@ img{
 		text-align: left;
 
 	}
-	
+	a.btn.btn--primary.btn--md.width-100\%.text-uppercase {
+		width: 205px;
+		height: 52px;
+		flex-grow: 0;
+		margin: 43px 260px 0 0;
+		padding: 18px 61px 12px 62px;
+		background-color: #000;
+		font-size: 18px;
+		font-weight: normal;
+		font-stretch: condensed;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width: 767px){

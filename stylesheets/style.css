@@ -10314,6 +10314,23 @@ img{
 		letter-spacing: normal;
 		text-align: left;
 	}
-	
+	.margin-bottom-lg.text-md{
+		font-size: 14px;
+		font-weight: normal;
+		font-stretch: condensed;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+	}
+	.margin-bottom-lg.text-lg {
+		font-size: 14px;
+		font-weight: normal;
+		font-stretch: condensed;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+	}
 
 }

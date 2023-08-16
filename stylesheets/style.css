@@ -10340,5 +10340,24 @@ img{
 		letter-spacing: normal;
 		text-align: left;
 	}
+	.font-secondary.text-xxxl.text-center {
+		font-size: 30px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: italic;
+		line-height: 1.53;
+		letter-spacing: normal;
+		text-align: center;
+	}
+	.acc__title.question-mobile.font-secondary {
+		font-size: 14px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: italic;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		padding: 0px 45px 9px 20px;
+	}
 
 }

@@ -10257,6 +10257,11 @@ img{
     position: absolute;
     left: -18px;
 }
+button.acc__title.question-mobile.font-secondary {
+    width: 100%;
+    border: none;
+    background: transparent;
+}
 @media only screen and (max-width: 767px){
 	.bullets_wrapper em.font-secondary.bullet { 
 		left: -15px;

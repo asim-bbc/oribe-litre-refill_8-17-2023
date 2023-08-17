@@ -10107,7 +10107,7 @@ img{
     padding: 0 16px;
     text-align: left;
 	line-height: 1.67;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .product-card{
@@ -10116,6 +10116,25 @@ img{
 }
 .acc__panel .link{
 	text-decoration: underline;
+}
+.bullets_wrapper{
+	position: relative;
+}
+.bullets_wrapper em.font-secondary.bullet {
+    font-weight: 600;
+    position: absolute;
+    left: -18px;
+}
+button.acc__title.question-mobile.font-secondary {
+    width: 100%;
+    border: none;
+    background: transparent;
+}
+.video-bg__media video{
+	object-position: top;
+}
+.width-50\%.product-card-img img {
+    width: 100%;
 }
 @media only screen and (min-width: 768px){
 	.section_02 p.font-secondary.text-xxxxxl.text-left.main-page-heading ,.section_02  p.font-secondary.text-xxxl.text-center.main-page-heading-sm , p.font-secondary.text-xxxxxl.text-right.main-page-heading{
@@ -10129,7 +10148,7 @@ img{
 		margin: 49px auto;
 	}
 	.section_02 em.font-secondary.text-xxl.font-light.letter-spacing-md.main-page-subheading {
-		font-size: 68px;
+		font-size: 60px;
 		font-weight: normal;
   font-stretch: normal;
   font-style: italic;
@@ -10141,7 +10160,7 @@ img{
 		max-width: 1004px;
 	}
 	.section_02 p.letter-spacing-md.text-lg.main-page-sub-subheading{
-		font-size: 28px;
+		font-size: 24px;
 		font-weight: normal;
   font-stretch: condensed;
   font-style: normal;
@@ -10150,7 +10169,7 @@ img{
   text-align: center;
 	}
 	section.section_04 em.font-secondary.text-xl.font-light.letter-spacing-md {
-		font-size: 38px;
+		font-size: 40px;
 		font-weight: normal;
 		font-stretch: normal;
 		font-style: italic;
@@ -10164,7 +10183,7 @@ img{
 	}
 	.product-card-desc.text-md.padding-x-xs.margin-bottom-md {
 		padding-left: 0;
-		font-size: 16px;
+		font-size: 20px;
 		font-weight: normal;
 		font-stretch: condensed;
 		font-style: normal;
@@ -10173,7 +10192,7 @@ img{
 		text-align: left;
 	}
 	.product-card-info .text-md.text-left.margin-bottom-lg {
-		font-size: 20px;
+		font-size: 24px;
 		font-weight: normal;
 		font-stretch: condensed;
 		font-style: normal;
@@ -10188,7 +10207,7 @@ img{
 		margin-bottom: 6px;
 	}
 	.product-title {
-		font-size: 38px;
+		font-size: 40px;
 		font-weight: 500;
 		font-stretch: condensed;
 		font-style: normal;
@@ -10208,10 +10227,10 @@ img{
 		text-align: left;
 	}
 	section.padding-y-lg.section_07 p.font-secondary.text-xxxxl.text-left ,section.padding-y-lg.section_07  p.font-secondary.text-xxxxl.text-right.line-height-heading {
-		font-size: 150px;
+		font-size: 120px;
 	}
 	.how-to-refill-header-container {
-		max-width: 591px;
+		max-width: 450px;
 	}
 	.how-to-refill-items-flex50 .margin-bottom-lg.text-md ,.how-to-refill-items-flex50 .margin-bottom-lg.text-lg {
 		font-size: 20px;
@@ -10248,20 +10267,11 @@ img{
 		letter-spacing: normal;
 		text-align: center;
 	}
+	section.section_01.video-bg.position-relative.anim-opac.is-inview {
+		height: 70vh;
+	}
 }
-.bullets_wrapper{
-	position: relative;
-}
-.bullets_wrapper em.font-secondary.bullet {
-    font-weight: 600;
-    position: absolute;
-    left: -18px;
-}
-button.acc__title.question-mobile.font-secondary {
-    width: 100%;
-    border: none;
-    background: transparent;
-}
+
 @media only screen and (max-width: 767px){
 	.bullets_wrapper em.font-secondary.bullet { 
 		left: -15px;

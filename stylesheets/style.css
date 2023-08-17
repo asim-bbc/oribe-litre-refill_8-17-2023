@@ -10447,6 +10447,10 @@ section.section_09.position-sticky.bottom-0 {
 		height: 7px; 
 		top: 32%; 
 	}
+	section.section_04 .container.padding-y-xl.max-width-md.text-center{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
 }
 
 section.section_09.position-sticky.bottom-0 a.btn.btn--primary.btn--md.width-100\%.text-uppercase{

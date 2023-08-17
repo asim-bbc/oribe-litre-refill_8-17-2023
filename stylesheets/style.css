@@ -10278,6 +10278,9 @@ section.section_09.position-sticky.bottom-0 {
 	section.section_01.video-bg.position-relative.anim-opac.is-inview {
 		height: 70vh;
 	}
+	section.section_08.faq-section-mobile.padding-y-sm.padding-x-sm {
+		padding-bottom: 65px;
+	}
 }
 
 @media only screen and (max-width: 767px){
@@ -10450,6 +10453,9 @@ section.section_09.position-sticky.bottom-0 {
 	section.section_04 .container.padding-y-xl.max-width-md.text-center{
 		padding-top: 30px;
 		padding-bottom: 30px;
+	}
+	section.section_08.faq-section-mobile.padding-y-sm.padding-x-sm {
+		padding-bottom: 50px;
 	}
 }
 

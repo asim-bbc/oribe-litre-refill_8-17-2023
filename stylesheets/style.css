@@ -10284,6 +10284,9 @@ section.section_09.position-sticky.bottom-0 {
 }
 
 @media only screen and (max-width: 767px){
+section.section_05 { 
+    padding: 0 19px;
+}
 	.bullets_wrapper em.font-secondary.bullet { 
 		left: -15px;
 	}

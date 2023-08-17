@@ -10129,6 +10129,7 @@ button.acc__title.question-mobile.font-secondary {
     width: 100%;
     border: none;
     background: transparent;
+	color: #000;
 }
 .video-bg__media video{
 	object-position: top;
@@ -10312,7 +10313,7 @@ button.acc__title.question-mobile.font-secondary {
 		text-align: center;
 	}
 	em.font-secondary.text-xl.font-light.letter-spacing-md {
-		font-size: 16px;
+		font-size: 20px;
 		font-weight: normal;
 		font-stretch: normal;
 		font-style: italic;
@@ -10335,7 +10336,7 @@ button.acc__title.question-mobile.font-secondary {
 		margin-bottom: 16px;
 	}
 	.text-md.text-left.margin-bottom-lg ,.text-md.text-center.text-truncate.padding-bottom-xs {
-		font-size: 16px;
+		font-size: 18px;
 		font-weight: normal;
 		font-stretch: condensed;
 		font-style: normal;
@@ -10350,7 +10351,7 @@ button.acc__title.question-mobile.font-secondary {
 	.product-card-desc {
 		margin-bottom: 0;
 		padding: 0;
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: normal;
 		font-stretch: condensed;
 		font-style: normal;
@@ -10359,7 +10360,7 @@ button.acc__title.question-mobile.font-secondary {
 		text-align: left;
 	}
 	.section_07 .margin-bottom-lg.text-md{
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: normal;
 		font-stretch: condensed;
 		font-style: normal;
@@ -10396,7 +10397,7 @@ button.acc__title.question-mobile.font-secondary {
 		text-align: center;
 	}
 	.acc__title.question-mobile.font-secondary {
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: normal;
 		font-stretch: normal;
 		font-style: italic;
@@ -10425,7 +10426,7 @@ button.acc__title.question-mobile.font-secondary {
 		text-align: center;
 	}
 	.acc__panel.answer-mobile {
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: normal;
 		font-stretch: condensed;
 		font-style: normal;

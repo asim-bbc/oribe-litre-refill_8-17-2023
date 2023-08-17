@@ -106,7 +106,7 @@ section.section_05 {
     margin: auto;
    
 }
-.product-card{
+.product-card-info{
 	background-color: #FFFEF1;
 }
 article,
@@ -8379,7 +8379,7 @@ em {
 				0.12
 			);
 }
-.btn:focus {
+/* .btn:focus {
 	-webkit-box-shadow: 0 0 0 2px
 		hsla(
 			var(--color-contrast-higher-h),
@@ -8395,7 +8395,7 @@ em {
 			0.15
 		);
 	outline: none;
-}
+} */
 .btn:active {
 	-webkit-transform: translateY(2px);
 	transform: translateY(2px);
@@ -9900,9 +9900,13 @@ img{
 	line-height: 0.7;
 }
 @media only screen and (max-width: 600px){
+
 	.how-to-refill-header-container{
-		max-width: 216px;
-	}
+	max-width: 192px;
+}
+.how-to-refill-header-container p.font-secondary.text-xxxxl.text-right.line-height-heading{
+	text-align: right;
+}
 	.how-to-refill-items{
 		flex-direction: column;
 		justify-content: center;
@@ -9968,7 +9972,7 @@ img{
 
 @media only screen and (max-width: 600px){
 	.divider{
-		border-bottom: 4px solid black;
+		border-bottom: 2px solid black;
 		width: 100px;
 		margin: 64px auto;
 	}
@@ -10114,7 +10118,7 @@ img{
 	text-decoration: underline;
 }
 @media only screen and (min-width: 768px){
-	.section_02 p.font-secondary.text-xxxxxl.text-left.main-page-heading ,.section_02  p.font-secondary.text-xxxl.text-center.main-page-heading-sm{
+	.section_02 p.font-secondary.text-xxxxxl.text-left.main-page-heading ,.section_02  p.font-secondary.text-xxxl.text-center.main-page-heading-sm , p.font-secondary.text-xxxxxl.text-right.main-page-heading{
 		font-size: 150px;
 	}
 	.section_02 p.font-secondary.text-xxxl.text-center.main-page-heading-sm{
@@ -10245,8 +10249,18 @@ img{
 		text-align: center;
 	}
 }
-
+.bullets_wrapper{
+	position: relative;
+}
+.bullets_wrapper em.font-secondary.bullet {
+    font-weight: 600;
+    position: absolute;
+    left: -18px;
+}
 @media only screen and (max-width: 767px){
+	.bullets_wrapper em.font-secondary.bullet { 
+		left: -15px;
+	}
 	.main-page-heading-sm {
 		font-size: 30px;
 		text-align: center;
@@ -10303,6 +10317,7 @@ img{
 		line-height: normal;
 		letter-spacing: normal;
 		text-align: left;
+		margin-bottom: 16px;
 	}
 	.text-md.text-left.margin-bottom-lg ,.text-md.text-center.text-truncate.padding-bottom-xs {
 		font-size: 16px;
@@ -10402,6 +10417,7 @@ img{
 		line-height: normal;
 		letter-spacing: normal;
 		text-align: left;
+		padding-bottom: 25px;
 	}
 	.acc__title:after {
 		width: 7px;
@@ -10409,6 +10425,7 @@ img{
 		top: 32%; 
 	}
 }
+
 section.section_09.position-sticky.bottom-0 a.btn.btn--primary.btn--md.width-100\%.text-uppercase{
 	width: 100%;
 }

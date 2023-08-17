@@ -10137,6 +10137,13 @@ button.acc__title.question-mobile.font-secondary {
 .width-50\%.product-card-img img {
     width: 100%;
 }
+body { 
+    background-color: #f6f7f1;
+}
+section.section_09.position-sticky.bottom-0 {
+    position: fixed;
+    width: 100%;
+}
 @media only screen and (min-width: 768px){
 	.section_02 p.font-secondary.text-xxxxxl.text-left.main-page-heading ,.section_02  p.font-secondary.text-xxxl.text-center.main-page-heading-sm , p.font-secondary.text-xxxxxl.text-right.main-page-heading{
 		font-size: 150px;

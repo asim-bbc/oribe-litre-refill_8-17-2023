@@ -10382,7 +10382,7 @@ section.section_05 {
 		text-align: left;
 	}
 	.section_07 .margin-bottom-lg.text-lg {
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: normal;
 		font-stretch: condensed;
 		font-style: normal;
@@ -10464,6 +10464,7 @@ section.section_05 {
 
 section.section_09.position-sticky.bottom-0 a.btn.btn--primary.btn--md.width-100\%.text-uppercase{
 	width: 100%;
+	margin-top: 0;
 }
  a:hover {
     opacity: 0.6;
